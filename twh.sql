@@ -54,7 +54,7 @@ CREATE TABLE `cmf_asset` (
 -- ----------------------------
 -- Records of cmf_asset
 -- ----------------------------
-
+   
 -- ----------------------------
 -- Table structure for `cmf_auth_access`
 -- ----------------------------
