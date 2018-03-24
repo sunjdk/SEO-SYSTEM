@@ -1,0 +1,78 @@
+[ 2018-03-24T09:38:30+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
+[ 2018-03-24T09:55:26+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
+[ 2018-03-24T09:59:00+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
+[ 2018-03-24T10:01:06+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
+[ 2018-03-24T10:01:07+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
+[ 2018-03-24T10:01:07+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
+[ 2018-03-24T10:01:52+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
+[ 2018-03-24T10:01:53+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
+[ 2018-03-24T10:20:14+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist.
+
+[ 2018-03-24T10:22:12+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist.
+
+[ 2018-03-24T15:10:14+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist.
+
+[ 2018-03-24T15:10:15+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist.
+
+[ 2018-03-24T15:31:55+08:00 ] 127.0.0.1 /
+ERR: Cell coordinate can not be zero-length string
+
+[ 2018-03-24T15:35:31+08:00 ] 127.0.0.1 /
+ERR: Invalid cell coordinate BA
+
+[ 2018-03-24T15:45:35+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist.
+
+[ 2018-03-24T15:56:51+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist.
+
+[ 2018-03-24T15:57:02+08:00 ] 127.0.0.1 /
+ERR: Could not open  for reading! File does not exist.
+
+[ 2018-03-24T17:11:19+08:00 ] 127.0.0.1 /index.php?g=&m=Index&a=index&p=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aesc LIMIT 1,1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cmf_seo` ORDER BY id aesc LIMIT 1,1  
+
+[ 2018-03-24T17:11:29+08:00 ] 127.0.0.1 /index.php?g=&m=Index&a=index&p=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aes LIMIT 1,1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cmf_seo` ORDER BY id aes LIMIT 1,1  
+
+[ 2018-03-24T21:50:40+08:00 ] 127.0.0.1 /index.php?g=&m=AdminSeo&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007024s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010363s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002541s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002653s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_seo` [ RunTime:0.0231s ]
+NOTIC: [8] Undefined index: validate C:\website\excel.io\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\website\excel.io\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_seo` (`client`,`collect`,`bword`,`pword`,`sword`,`gword`,`cdate`,`excel`) VALUES ('陶百万','1561351','121','232','343','454','2018-03-24 21:49','./Uploads/20180324/5ab657a96c6af.xls') [ RunTime:0.0344s ]
+
+[ 2018-03-24T22:30:37+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name=$k % 4
+

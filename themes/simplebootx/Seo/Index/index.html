@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>报表首页</title>
+<meta name="keywords" content="报表首页">
+<meta name="description" content="报表首页">
+<Css file="__TMPL__Public/Seo/index.css,__PUBLIC__/simpleboot/seo/page.css" />
+<Js file="__TMPL__Public/Seo/index.js" />
+</head>
+<body>
+	<div class="top">
+		<div class="content">
+			<div class="item">
+				<div class="logo">
+					<img src="__TMPL__Public/Seo/images/logo.jpg" alt="网赢快车" />
+				</div>
+			</div>
+			<div class="item">
+				<div class="auth">
+					<img src="__TMPL__Public/Seo/images/biao.jpg" alt="用户注册" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="path">
+		<div class="content">
+			<h3>当前企业：{$list[0].client}(报表更新日期：{$list[0].cdate})</h3>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="content">
+			<img src="__TMPL__Public/Seo/images/biao_07.jpg" alt="" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="content">
+			<div class="count">监测到<font color="blue">{$list[0].collect}</font>个关键词排名搜索前3页</div>
+			<div class="thead">
+				<div class="item">
+					<ul>
+						<li>百度(<font color="green">{$list[0].bword}</font>)</li>
+						<li>百度移动(<font color="green">{$list[0].pword}</font>)</li>
+						<li>360搜索(<font color="green">{$list[0].sword}</font>)</li>
+						<li>搜狗(<font color="green">{$list[0].gword}</font>)</li>
+					</ul>
+				</div>
+				<div class="item">
+					<ul>
+						<li>发布时间</li>
+						<li>排名先后顺序</li>
+						<li class="active">字数排序</li>
+					</ul>
+				</div>
+			</div>
+			<div class="tbody">
+				<volist name="list[0]['excel']" id="vo" key="k">
+					
+				
+				<ul>
+					<li class="title"><a href="{$vo.B}">{$vo.A}</a></li>
+					<li><img src="__TMPL__Public/Seo/images/biao_<if condition="$k%4 eq 1">11<elseif condition="$k%4 eq 2"/>14<elseif condition="$k%4 eq 3"/>16<else />18</if>.jpg" alt="百度排名" /></li>
+					<li class="order">第{$vo.C}页(3) <img src="__TMPL__Public/Seo/images/biao_21.jpg" alt="百度排名" /></li>
+					<li><a href="{$vo.B}" class="check">查看</a></li>
+				</ul>
+				</volist>
+				
+				
+			</div>
+			<div class="tfoot green-black">{$page}</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="content">本表由【<font color="red">网赢快车</font>】提供技术支持，由于百度、360、搜狗搜索引擎更新频繁，报表查询结果以实际搜索为准</div>
+	</div>
+	<div class="footer">
+		<div class="content"><img src="__TMPL__Public/Seo/images/biao_25.jpg" alt="网赢快车" /></div>
+	</div>
+</body>
+</html>
